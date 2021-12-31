@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div class="row">
+      <div  class="col-2 bg-info "><i class="fa fa-university fa-3x" style="color:white;padding-left: 30px;"></i> </div>
+       <div class="col-10 bg-info"style="color:white;font-family: 'Fruktur', cursive;padding-left:240px;font-size: 30px;">College Portal Welcomes You </div>   
+    </div>
+    <div style="text-align: center;">
+      {{abt}}
+      {{address}}
+    </div>
+    {% include 'university/headerpage.html' %}
+    <div class="row">
+    <div class="card col-6 bg-danger" style="width: 18rem;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Srmcem.jpg" class="card-img-top" alt="srmcem">
+        <div class="card-body">
+          <p class="card-text">Shri Ramswaroop Agarwal Ji is the inspiration behind the establishment of Shri Ramswaroop Memorial Group of Professional Colleges. Besides being a successful industrialist, he was a forward-thinking philanthropist, an avid supporter of women education and a campaigner for social cause. He believed that advancement of country and its society could be possible only through value based education and adoption of principles of transparency and ethical conduct. Purity of means was as important to him as the objective itself, and success was meaningful to him only when it benefitted society. Sincerity, hard work, steadfastness and efforts for attaining lofty ideals were the virtues showcased in his thoughts and deeds alike.</p>
+        </div>
+      </div>
+      <div class="card col-6 bg-warning" style="width: 18rem;">
+        <img src="https://bbdu.ac.in/wp-content/uploads/2017/12/univ.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Babu Banarasi Das University (also known as BBD University)[1] is a private university having its Main Campus in Lucknow, Uttar Pradesh, India established by Akhilesh Das in 2010 and named after his father and former Chief Minister of Uttar Pradesh, Babu Banarasi Das. The university was incepted by an Act (No. 25 of 2010) of State Legislature of Uttar Pradesh as a State Private University</p>
+        </div>
+      </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
+    
+</body>
+</html>
